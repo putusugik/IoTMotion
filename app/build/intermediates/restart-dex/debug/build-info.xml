@@ -5,33 +5,47 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="116658865039952"
+    timestamp="135895994229173"
     token="5354363437990185635"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="183" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="138" />
+        duration="0" />
     <task
         name="verifier"
-        duration="13" />
+        duration="0" />
 
     <artifact
-        location="D:\Android-Project\AndroidSQLiteTutorial1\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="D:\Android-Project\AndroidSQLiteTutorial1\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="116658865039952"
+        timestamp="134205612916510"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Android-Project\AndroidSQLiteTutorial1\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="135819657987392"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="D:\Android-Project\AndroidSQLiteTutorial1\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="135895994229173"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Android-Project\AndroidSQLiteTutorial1\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

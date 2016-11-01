@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
     EditText eWaktu1, eWaktu2;
-    Button butSave, dis;
+    Button butSave, dis1, dis2;
     TimePicker time;
     TextView test;
     /** Called when the activity is first created. */
@@ -27,16 +27,12 @@ public class MainActivity extends Activity {
         eWaktu2 = (EditText)findViewById(R.id.waktu_akhir);
         butSave = (Button)findViewById(R.id.butsave);
         time = (TimePicker)findViewById(R.id.timePicker2);
-        test = (TextView)findViewById(R.id.textView);
-        dis = (Button)findViewById(R.id.button2);
+
+        dis1 = (Button)findViewById(R.id.button2);
+        dis2 = (Button)findViewById(R.id.button);
         DatabaseHandler db = new DatabaseHandler(this);
 
-        eWaktu1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                eWaktu1.setText(new StringBuilder().append(time.getCurrentHour().toString()).append(":".toString()).append(time.getCurrentMinute().toString()));
-            }
-        });
+
 
         /**
          * CRUD Operations
@@ -68,6 +64,6 @@ public class MainActivity extends Activity {
         eWaktu1.setText(new StringBuilder().append(time.getCurrentHour().toString()).append(":".toString()).append(time.getCurrentMinute().toString()));
     }
     public void get2(View v){
-        eWaktu1.setText(new StringBuilder().append(time.getCurrentHour()).append(":").append(time.getCurrentMinute()));
+        eWaktu2.setText(new StringBuilder().append(time.getCurrentHour().toString()).append(":".toString()).append(time.getCurrentMinute().toString()));
     }
 }

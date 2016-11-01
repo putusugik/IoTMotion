@@ -20,12 +20,13 @@
         <EditText
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:inputType="time"
+            android:inputType="none"
             android:ems="10"
             android:id="@+id/waktu_awal"
             android:gravity="center"
             android:hint="00:00"
-            android:enabled="false"
+            android:editable="false"
+
             />
 
         <EditText
@@ -36,29 +37,37 @@
             android:id="@+id/waktu_akhir"
             android:gravity="center"
             android:hint="00:00"
-            android:enabled="false"
+            android:editable="false"
             />
 
     </LinearLayout>
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:text="Waktu Awal"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:onClick="get1"
+            android:layout_weight="47643.00" />
+
+        <Button
+            android:text="Waktu Akhir"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:onClick="get2"
+            android:layout_weight="14292.90" />
+    </LinearLayout>
     <Button
         android:text="SAVE"
         android:layout_height="wrap_content"
         android:id="@+id/butsave"
         android:onClick="save"
         android:layout_width="match_parent" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView" />
-
-    <Button
-        android:text="Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:onClick="get1"/>
 
 </LinearLayout>
