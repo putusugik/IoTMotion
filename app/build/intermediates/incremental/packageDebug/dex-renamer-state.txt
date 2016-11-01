@@ -1,0 +1,7 @@
+#Tue Nov 01 17:21:02 SGT 2016
+base.0=D\:\\Android-Project\\AndroidSQLiteTutorial1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8047f0f130ffb7a63fbacdbe9f7b86e8a5eac273
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\Android-Project\\AndroidSQLiteTutorial1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3c8b611d3905d7a50c46f6bfff6a58d4eadac105\\classes.dex
+base.1=D\:\\Android-Project\\AndroidSQLiteTutorial1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3c8b611d3905d7a50c46f6bfff6a58d4eadac105
+file.0=D\:\\Android-Project\\AndroidSQLiteTutorial1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8047f0f130ffb7a63fbacdbe9f7b86e8a5eac273\\classes.dex
